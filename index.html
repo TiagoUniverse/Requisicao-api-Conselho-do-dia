@@ -37,19 +37,17 @@
       </article>
 
       <article class="card content_inicioText">
-        <form action="index.html" method="post">
-          <button type="submit" class="btn btn-primary">Pedir outro conselho</button>
-        </form>
+        <a type="submit" class="btn btn-primary" href="index.html">Pedir outro conselho</a>
       </article>
 
 
       <article class="card content_inicioText">
-          <h2>Contato do desenvolvedor</h2>
-          <a href="https://conselhododia.netlify.app/" target="_blank"> Site on-line de conselhos</a>
-          <a href="https://github.com/TiagoUniverse" target="_blank"> GitHub</a>
-          <a href="https://curriculo-tiago.netlify.app/" target="_blank"> Curriculum</a>
+        <h2>Contato do desenvolvedor</h2>
+        <a href="https://conselhododia.netlify.app/" target="_blank"> Site on-line de conselhos</a>
+        <a href="https://github.com/TiagoUniverse" target="_blank"> GitHub</a>
+        <a href="https://curriculo-tiago.netlify.app/" target="_blank"> Curriculum</a>
       </article>
-      
+
     </section>
   </div>
 
@@ -63,16 +61,15 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
 
-    <script>    
-      const para = document.querySelector("p");
-      fetch("https://api.adviceslip.com/advice")
-      . then(response => 
-      {
-          return response.json();
+  <script>
+    const para = document.querySelector("p");
+    fetch("https://api.adviceslip.com/advice")
+      .then(response => {
+        return response.json();
       })
       .then(data => {
-          var advice = data.slip.advice
-          para.innerText = advice     
+        var advice = data.slip.advice
+        para.innerText = advice
 
       })
   </script>
