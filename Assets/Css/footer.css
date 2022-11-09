@@ -17,49 +17,20 @@ footer {
     text-align: left;
   }
 
-  /*
-  section img {
-    width: 100%;
-  }
-  */
-
-  #content_icon {
-    width: 100%;
-  }
-  
 
   .content_inicioText {
     font-size: 100%;
   }
 
-  #myModal {
-    margin-left: 0;
-  }
-
-  #Filtro_botao img{
-    width: 4%;
-  }
-  
-  #status_colaborador {
-    width: 7cm;
-  }
-
-  #checkbox {
-    margin-left: 0;
-    margin-top:  0; 
-    margin-bottom:0;
-  }
 
   footer {
     display: none;
   }
 
-  #botao_opcao {
-    margin-left: 0;
-  }
-
-  #ativo_inativo {
-    margin-left: 0;
+  .row{
+    padding: 0 20px;
+    display:table;
+    width: 100%;
   }
 
 }
