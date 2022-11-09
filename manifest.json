@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "Conselho do dia",
   "orientation": "any",
-  "scope": "/Requisicao-api/",
+  "scope": "/",
   "short_name": "Conselho do dia",
   "start_url": "index.html",
   "theme_color": "#ffffff",
