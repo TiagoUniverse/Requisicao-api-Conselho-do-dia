@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background: #691ce6;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+header img {
+    height: 70px;
+}
+

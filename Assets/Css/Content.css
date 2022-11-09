@@ -1,0 +1,80 @@
+/*
+.row {
+    padding: 0 20px;
+    display:table;
+    width: 95%;
+  }
+  */
+
+section {
+  float: right;
+  width: 75%;
+}
+
+.card {
+  background: #f9f6f3;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#content_inicio {
+  width: 45%;
+}
+
+.content_inicioText {
+  text-align: center;
+}
+
+#myModal {
+  margin-left: 24vh;
+}
+
+.status_user {
+  height: 5mm;
+  margin-right: 1mm;
+  margin-bottom: 1mm;
+  background: green;
+}
+
+.status_user_pendente {
+  height: 5mm;
+  margin-right: 1mm;
+  margin-bottom: 1mm;
+  background: red;
+}
+
+#user_name {
+  color: rgba(240, 45, 20, 0.87);
+}
+
+#username{
+  color:black;
+  font-weight: bold;
+}
+
+.fundoVerde{
+  background-color: green;
+}
+
+.fundoVermelho{
+  background-color: rgb(211, 9, 9);
+}
+
+#checkbox{
+  margin-left: 15cm;
+  margin-top:0.5cm; 
+  margin-bottom:1cm;
+}
+
+#button_expanded{
+  width:-webkit-fill-available;
+}
+
+#botao_opcao {
+  margin-left: 30cm;
+}
+
+#ativo_inativo{
+  margin-left: 25cm;
+}
+
